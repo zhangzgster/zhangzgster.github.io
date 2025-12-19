@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>项目 · 张志刚</title>
-  <link rel="stylesheet" href="/assets/css/style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="topbar">
-      <a class="logo" href="/">
-        <span class="dot"></span>
-        <span>zhangzgster</span>
-      </a>
-      <nav class="nav-links">
-        <a href="/">首页</a>
-        <a href="/categories.html">分类</a>
-        <a href="/tags.html">标签</a>
-        <a href="/archives.html">归档</a>
-        <a class="active" href="/projects.html">项目</a>
-        <a href="/about.html">关于</a>
-      </nav>
-      <button class="menu-toggle" aria-label="展开菜单">菜单</button>
-    </div>
-    <section class="hero">
-      <div>
-        <h1 class="hero-title">项目与作品</h1>
-        <p class="hero-subtitle">汇总近期打造的开源与实战项目，保持与原站类似的卡片化呈现。</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>项目</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <a class="logo" href="/">
+          <span class="dot"></span>
+          <span>zhangzgster</span>
+        </a>
+        <nav class="nav-links">
+          <a href="/">首页</a>
+          <a href="/categories.html">分类</a>
+          <a href="/tags.html">标签</a>
+          <a href="/archives.html">归档</a>
+          <a class="active" href="/projects.html">项目</a>
+          <a href="/about.html">关于</a>
+        </nav>
+        <button class="menu-toggle" aria-label="展开菜单">菜单</button>
       </div>
-      <div class="avatar-wrap">
-        <img class="avatar" src="/assets/img/avatar.svg" alt="个人头像" />
-      </div>
-    </section>
-  </header>
+      <section class="hero">
+        <div>
+          <h1 class="hero-title">项目与作品</h1>
+          <p class="hero-subtitle">
+            汇总近期打造的开源与实战项目，保持与原站类似的卡片化呈现。
+          </p>
+        </div>
+        <div class="avatar-wrap">
+          <img class="avatar" src="/assets/img/avatar.svg" alt="个人头像" />
+        </div>
+      </section>
+    </header>
 
-  <main class="main">
-    <section>
-      <div class="post-grid">
-        <article class="card">
-          <h3><a href="https://github.com/zhangzgster/design-system">North Star Design System</a></h3>
-          <div class="meta">组件库 · React · Storybook</div>
-          <p>沉淀在中台项目中验证过的 UI 组件与设计语言，提供主题与可访问性支持。</p>
-          <div class="tags">
-            <span class="tag">Design System</span>
-            <span class="tag">Accessibility</span>
-          </div>
-        </article>
-        <article class="card">
-          <h3><a href="https://github.com/zhangzgster/cli-toolkit">CLI Toolkit</a></h3>
-          <div class="meta">Node.js · 工程化</div>
-          <p>灵感来自原站脚手架文章，提供项目初始化、质量检查与发布流程。</p>
-          <div class="tags">
-            <span class="tag">Node.js</span>
-            <span class="tag">Automation</span>
-          </div>
-        </article>
-        <article class="card">
-          <h3><a href="#">互动数据可视化</a></h3>
-          <div class="meta">D3.js · Three.js</div>
-          <p>将数据故事以 2D/3D 形式呈现，包含滚动驱动的动画与场景切换。</p>
-          <div class="tags">
-            <span class="tag">D3</span>
-            <span class="tag">Three.js</span>
-          </div>
-        </article>
-        <article class="card">
-          <h3><a href="#">Serverless 博客系统</a></h3>
-          <div class="meta">云开发 · 可观测性</div>
-          <p>以 Serverless 架构重构博客，复刻原站体验并接入实时监控。</p>
-          <div class="tags">
-            <span class="tag">Serverless</span>
-            <span class="tag">Observability</span>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
+    <main class="main">
+      <section>
+        <div class="post-grid">
+          <article class="card">
+            <h3>
+              <a href="https://github.com/zhangzgster/design-system"
+                >North Star Design System</a
+              >
+            </h3>
+            <div class="meta">组件库 · React · Storybook</div>
+            <p>
+              沉淀在中台项目中验证过的 UI
+              组件与设计语言，提供主题与可访问性支持。
+            </p>
+            <div class="tags">
+              <span class="tag">Design System</span>
+              <span class="tag">Accessibility</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>
+              <a href="https://github.com/zhangzgster/cli-toolkit"
+                >CLI Toolkit</a
+              >
+            </h3>
+            <div class="meta">Node.js · 工程化</div>
+            <p>灵感来自原站脚手架文章，提供项目初始化、质量检查与发布流程。</p>
+            <div class="tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Automation</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3><a href="#">互动数据可视化</a></h3>
+            <div class="meta">D3.js · Three.js</div>
+            <p>将数据故事以 2D/3D 形式呈现，包含滚动驱动的动画与场景切换。</p>
+            <div class="tags">
+              <span class="tag">D3</span>
+              <span class="tag">Three.js</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3><a href="#">Serverless 博客系统</a></h3>
+            <div class="meta">云开发 · 可观测性</div>
+            <p>以 Serverless 架构重构博客，复刻原站体验并接入实时监控。</p>
+            <div class="tags">
+              <span class="tag">Serverless</span>
+              <span class="tag">Observability</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-  <footer class="footer">
-    <div>更多项目持续更新，欢迎 Star 与 Issue 交流。</div>
-  </footer>
-  <div class="back-to-top" aria-label="返回顶部">↑</div>
-  <script src="/assets/js/main.js"></script>
-</body>
+    <footer class="footer">
+      <div>更多项目持续更新，欢迎 Star 与 Issue 交流。</div>
+    </footer>
+    <div class="back-to-top" aria-label="返回顶部">↑</div>
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
