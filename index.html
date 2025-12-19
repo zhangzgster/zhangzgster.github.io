@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张志刚 · 个人网站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <a class="logo" href="/">
+        <span class="dot"></span>
+        <span>zhangzgster</span>
+      </a>
+      <nav class="nav-links">
+        <a class="active" href="/">首页</a>
+        <a href="/categories.html">分类</a>
+        <a href="/tags.html">标签</a>
+        <a href="/archives.html">归档</a>
+        <a href="/projects.html">项目</a>
+        <a href="/about.html">关于</a>
+      </nav>
+      <button class="menu-toggle" aria-label="展开菜单">菜单</button>
+    </div>
+    <section class="hero">
+      <div>
+        <h1 class="hero-title">你好，我是张志刚</h1>
+        <p class="hero-subtitle">一名热爱构建产品的前端 / 全栈开发者，记录技术、设计与生活思考。这个站点按照 <a href="https://gaohaoyang.github.io" target="_blank" rel="noreferrer">Gaohaoyang</a> 的结构和风格搭建，便于快速浏览。</p>
+        <div class="hero-meta">
+          <span>🌱 终身学习</span>
+          <span>🧭 架构与工程化</span>
+          <span>🎨 设计体验</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button" href="/projects.html">查看项目</a>
+          <a class="button secondary" href="/about.html">了解我</a>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <img class="avatar" src="assets/img/avatar.svg" alt="个人头像" />
+      </div>
+    </section>
+  </header>
+
+  <main class="main">
+    <section>
+      <h2 class="section-title">最新文章</h2>
+      <p class="section-desc">记录近期发布的内容，与原站一样保持卡片流的阅读体验。</p>
+      <div class="post-grid">
+        <article class="card">
+          <h3><a href="#">大型前端项目的状态管理实践</a></h3>
+          <div class="meta">2024-05-12 · 前端 · 架构</div>
+          <p>总结在多团队协同中落地状态管理的约束、组件化分层和调试工具链。</p>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">工程化</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3><a href="#">构建顺滑的博客体验</a></h3>
+          <div class="meta">2024-04-26 · 设计 · 体验</div>
+          <p>对比原站点的配色、留白和排版，重新设计自己的内容框架。</p>
+          <div class="tags">
+            <span class="tag">UI</span>
+            <span class="tag">CSS</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3><a href="#">Rust 工具链入门笔记</a></h3>
+          <div class="meta">2024-04-02 · 工具 · 语言</div>
+          <p>从零配置到发布 crate，覆盖 rustup、cargo、测试与文档。</p>
+          <div class="tags">
+            <span class="tag">Rust</span>
+            <span class="tag">CLI</span>
+          </div>
+        </article>
+        <article class="card">
+          <h3><a href="#">2023 年度复盘：目标、产品与成长</a></h3>
+          <div class="meta">2024-01-10 · 随笔</div>
+          <p>复盘年度目标的达成度、最有收获的项目以及下一步的计划。</p>
+          <div class="tags">
+            <span class="tag">思考</span>
+            <span class="tag">复盘</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">精选专题</h2>
+      <p class="section-desc">和原站一样，按专题整理高价值的文章串。</p>
+      <div class="grid-two">
+        <div class="highlight">
+          <div class="badge">🚀 前端工程化</div>
+          <p>围绕 CI/CD、脚手架、质量保障工具链，沉淀最佳实践。</p>
+          <ul class="list">
+            <li><strong>Monorepo 组件化设计</strong><span> - 架构</span></li>
+            <li><strong>Storybook 与设计系统</strong><span> - 体验</span></li>
+            <li><strong>可观察性与前端监控</strong><span> - 质量</span></li>
+          </ul>
+        </div>
+        <div class="highlight">
+          <div class="badge">🧭 全栈随想</div>
+          <p>记录服务端、数据库、云原生的踩坑与思路，保持 T 型技能。</p>
+          <ul class="list">
+            <li><strong>Serverless 工作流</strong><span> - 实践</span></li>
+            <li><strong>自动化部署的灰度方案</strong><span> - 经验</span></li>
+            <li><strong>数据建模与指标体系</strong><span> - 方法</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">友链与关注</h2>
+      <p class="section-desc">延续高浩阳博客的友链传统，欢迎互访交流。</p>
+      <div class="social">
+        <a href="https://github.com/zhangzgster" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+        <a href="mailto:hello@zhangzgster.com">Email</a>
+        <a href="https://gaohaoyang.github.io" target="_blank" rel="noreferrer">原站</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© 2024 张志刚 · 基于 Gaohaoyang 博客的页面布局与风格</div>
+  </footer>
+
+  <div class="back-to-top" aria-label="返回顶部">↑</div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
