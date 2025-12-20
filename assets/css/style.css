@@ -213,7 +213,8 @@ img {
   box-shadow: var(--shadow);
   border: 1px solid var(--border-color);
   display: grid;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
+  margin-bottom: 1.5rem;
 }
 
 .card h3 {
