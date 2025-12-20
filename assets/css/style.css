@@ -178,9 +178,17 @@ img {
 
 .main {
   flex: 1;
-  max-width: var(--content-width);
+  /* max-width: var(--content-width);
   margin: 1.5rem auto 3rem;
-  padding: 0 1.5rem;
+  padding: 0 1.5rem; */
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .sidebar {
