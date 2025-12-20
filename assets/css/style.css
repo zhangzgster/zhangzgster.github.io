@@ -198,6 +198,12 @@ img {
   gap: 1rem;
 }
 
+.post-list {
+  display: list-item;
+  list-style: square;
+  gap: 1rem;
+}
+
 .card {
   background: #fff;
   border-radius: 14px;
