@@ -55,9 +55,9 @@ img {
 
 .topbar {
   display: flex;
-  align-items: spacce-between;
+  align-items: center;
   justify-content: space-between;
-  max-width: var(--content-width);
+  /* max-width: var(--content-width); */
   margin: 0 auto;
   padding: 1rem 1.5rem;
 }
@@ -194,6 +194,7 @@ img {
 .sidebar {
   background: #fff;
   width: 280px;
+  height: fit-content;
   flex-shrink: 0;
   border-radius: 14px;
   padding: 1.25rem;
