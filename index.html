@@ -31,55 +31,56 @@
       </div>
     </header>
 
-    <main class="main">
-      <section>
-        <h2 class="section-title">最新文章</h2>
-        <!-- <p class="section-desc">
+    <div class="content-wrapper">
+      <main class="main">
+        <section>
+          <h2 class="section-title">最新文章</h2>
+          <!-- <p class="section-desc">
           记录近期发布的内容，与原站一样保持卡片流的阅读体验。
         </p> -->
-        <div class="post-list">
-          <article class="card">
-            <h3><a href="#">大型前端项目的状态管理实践</a></h3>
-            <div class="meta">2024-05-12 · 前端 · 架构</div>
-            <p>
-              总结在多团队协同中落地状态管理的约束、组件化分层和调试工具链。
-            </p>
-            <div class="tags">
-              <span class="tag">React</span>
-              <span class="tag">工程化</span>
-            </div>
-          </article>
-          <article class="card">
-            <h3><a href="#">构建顺滑的博客体验</a></h3>
-            <div class="meta">2024-04-26 · 设计 · 体验</div>
-            <p>对比原站点的配色、留白和排版，重新设计自己的内容框架。</p>
-            <div class="tags">
-              <span class="tag">UI</span>
-              <span class="tag">CSS</span>
-            </div>
-          </article>
-          <article class="card">
-            <h3><a href="#">Rust 工具链入门笔记</a></h3>
-            <div class="meta">2024-04-02 · 工具 · 语言</div>
-            <p>从零配置到发布 crate，覆盖 rustup、cargo、测试与文档。</p>
-            <div class="tags">
-              <span class="tag">Rust</span>
-              <span class="tag">CLI</span>
-            </div>
-          </article>
-          <article class="card">
-            <h3><a href="#">2023 年度复盘：目标、产品与成长</a></h3>
-            <div class="meta">2024-01-10 · 随笔</div>
-            <p>复盘年度目标的达成度、最有收获的项目以及下一步的计划。</p>
-            <div class="tags">
-              <span class="tag">思考</span>
-              <span class="tag">复盘</span>
-            </div>
-          </article>
-        </div>
-      </section>
+          <div class="post-list">
+            <article class="card">
+              <h3><a href="#">大型前端项目的状态管理实践</a></h3>
+              <div class="meta">2024-05-12 · 前端 · 架构</div>
+              <p>
+                总结在多团队协同中落地状态管理的约束、组件化分层和调试工具链。
+              </p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">工程化</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3><a href="#">构建顺滑的博客体验</a></h3>
+              <div class="meta">2024-04-26 · 设计 · 体验</div>
+              <p>对比原站点的配色、留白和排版，重新设计自己的内容框架。</p>
+              <div class="tags">
+                <span class="tag">UI</span>
+                <span class="tag">CSS</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3><a href="#">Rust 工具链入门笔记</a></h3>
+              <div class="meta">2024-04-02 · 工具 · 语言</div>
+              <p>从零配置到发布 crate，覆盖 rustup、cargo、测试与文档。</p>
+              <div class="tags">
+                <span class="tag">Rust</span>
+                <span class="tag">CLI</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3><a href="#">2023 年度复盘：目标、产品与成长</a></h3>
+              <div class="meta">2024-01-10 · 随笔</div>
+              <p>复盘年度目标的达成度、最有收获的项目以及下一步的计划。</p>
+              <div class="tags">
+                <span class="tag">思考</span>
+                <span class="tag">复盘</span>
+              </div>
+            </article>
+          </div>
+        </section>
 
-      <!-- <section>
+        <!-- <section>
         <h2 class="section-title">精选专题</h2>
         <p class="section-desc">和原站一样，按专题整理高价值的文章串。</p>
         <div class="grid-two">
@@ -104,18 +105,32 @@
         </div>
       </section> -->
 
-      <p class="blank"></p>
+        <p class="blank"></p>
 
-      <section>
-        <h2 class="section-title">欢迎交流</h2>
-        <!-- <p class="section-desc">欢迎互访交流。</p> -->
-        <div class="social">
-          <a href="mailto:zhangzgster@gmail.com"
-            >Email: zhangzgster@gmail.com</a
-          >
+        <section>
+          <h2 class="section-title">欢迎交流</h2>
+          <!-- <p class="section-desc">欢迎互访交流。</p> -->
+          <div class="social">
+            <a href="mailto:zhangzgster@gmail.com"
+              >Email: zhangzgster@gmail.com</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <div class="recent-posts">
+          <h3>最近发布</h3>
+          <ul class="posts-list">
+            <li><a href="#">大型前端项目的状态管理实践</a></li>
+            <li><a href="#">构建顺滑的博客体验</a></li>
+            <li><a href="#">Rust 工具链入门笔记</a></li>
+            <li><a href="#">动画与微交互设计</a></li>
+            <li><a href="#">Node.js GraphQL 服务实践</a></li>
+          </ul>
         </div>
-      </section>
-    </main>
+      </aside>
+    </div>
 
     <footer class="footer">
       <div>©2025 zhangzgster@gmail.com</div>
