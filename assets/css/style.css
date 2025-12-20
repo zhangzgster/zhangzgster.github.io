@@ -199,9 +199,11 @@ img {
 }
 
 .post-list {
-  display: list-item;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   list-style: square;
-  gap: 1rem;
+  padding-left: 1.5rem;
 }
 
 .card {
